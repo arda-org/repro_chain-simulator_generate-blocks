@@ -1,0 +1,11 @@
+[package]
+name = "contract"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[lib]
+path = "contract.rs"
+
+[dependencies.multiversx-sc]
+version = "0.50.4"
