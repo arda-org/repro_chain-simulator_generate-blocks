@@ -1,3 +1,5 @@
+FIXED ✅
+
 Scenario that fails:
 - User on shard 0 calls contract on shard 1
 - Contract on shard 1 calls another contract on shard 0 and in the callback transfers token to user on shard 0
